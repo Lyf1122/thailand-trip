@@ -931,11 +931,12 @@ const DAYS = [
       detail: '带现金和小额纸币\n先看价再点酒水\n18:00-21:00 氛围最友好', xhsKeyword: '普吉 邦古拉街' }
   ]},
 
-  { id: 2, label: 'D2', date: '09-26 周六 · 海滩日', title: '海滩日 · 班赞海鲜', color: '#34c759', locations: [
-    { name: '自由海滩 Freedom Beach', lat: 7.8730, lng: 98.2840, type: 'spot', time: '09:30',
-      desc: '长尾船 15 分钟抵达的白沙滩，水清人少，芭东旁边的小桃源',
-      detail: '往返约 1500-2000 铢/船\n上午去，下午浪大停航\n自带浮潜面镜更卫生',
-      budget: '船费人均 300-500 铢', pay: { cash: 1 } },
+  { id: 2, label: 'D2', date: '09-26 周六 · 动物日', title: '大象保护营 · 班赞海鲜', color: '#34c759', locations: [
+    { name: '大象保护营 Elephant Jungle Sanctuary', lat: 7.91893, lng: 98.33023, type: 'spot', time: '08:30-13:00',
+      desc: '无骑乘的道德大象营：喂食、泥浴、河里给大象洗澡，半日营含酒店接送',
+      detail: '半日营约 2500-3000 铢/人（Klook/官网订，含接送+午餐）\n穿速干衣和拖鞋，会全身泥\n怕晒带防水袋装手机\n从卡伦接约 30 分钟车程', budget: '2500-3000 铢/人', pay: { card: 1 }, xhsKeyword: '普吉 大象保护营 攻略' },
+    { name: '卡伦海滩 · 午后休整', lat: 7.8445, lng: 98.2947, type: 'spot', time: '14:30',
+      desc: '回酒店冲个澡，下午酒店门口的卡伦海滩躺平：细白沙长滩，雨季浪大红旗勿下水' },
     { name: '班赞生鲜市场', lat: 7.8955, lng: 98.2965, type: 'food', time: '17:00',
       desc: '一楼买海鲜二楼加工，芭东海鲜性价比天花板',
       detail: '按公斤问价，现挑现做\n加工费另算\n17:00-19:00 人最多，赶早',
@@ -946,25 +947,25 @@ const DAYS = [
   ]},
 
   { id: 3, label: 'D3', date: '09-27 周日 · 跳岛日', title: '皮皮岛跳岛', color: '#007aff', locations: [
-    { name: '皇家码头 Rassada Pier', lat: 7.9050, lng: 98.3880, type: 'transport', time: '07:30',
-      desc: '皮皮岛方向渡轮/快艇集合点，一日游通常含酒店接送',
-      detail: '晕船提前 30 分钟吃药\n出发前一晚确认船家是否发船（雨季）', pay: { cash: 1, card: 1 } },
-    { name: '玛雅湾 Maya Bay', lat: 7.6777, lng: 98.7657, type: 'spot', time: '10:30',
+    { name: '皇家码头 Rassada Pier', lat: 7.9050, lng: 98.3880, type: 'transport', time: '09:00 开船',
+      desc: '一日游 09:00 出发 19:00 返回，通常含酒店接送（约 08:00 上门接）',
+      detail: '晕船提前 30 分钟吃药\n出发前一晚确认船家是否发船（雨季）\n19:00 回到普吉，行李全天寄存 Centara Grand 前台', pay: { cash: 1, card: 1 } },
+    { name: '玛雅湾 Maya Bay', lat: 7.6777, lng: 98.7657, type: 'spot', time: '11:00',
       desc: '《海滩》取景地，限时登岛 + 限流，跟着船队走', xhsKeyword: '皮皮岛 玛雅湾' },
-    { name: 'Pileh 潟湖 · 浮潜', lat: 7.6842, lng: 98.7628, type: 'spot', time: '11:30',
+    { name: 'Pileh 潟湖 · 浮潜', lat: 7.6842, lng: 98.7628, type: 'spot', time: '12:15',
       desc: '翡翠色泻湖浮潜，能见度极好的经典点位' },
-    { name: '猴子海滩 Monkey Beach', lat: 7.7446, lng: 98.7664, type: 'spot', time: '13:30',
+    { name: '猴子海滩 Monkey Beach', lat: 7.7446, lng: 98.7664, type: 'spot', time: '14:00',
       desc: '白沙浅滩，猴子只可远观，护好食物和墨镜' },
-    { name: '竹子岛 Bamboo Island', lat: 7.8108, lng: 98.7713, type: 'spot', time: '14:30',
+    { name: '竹子岛 Bamboo Island', lat: 7.8108, lng: 98.7713, type: 'spot', time: '15:30',
       desc: '跳岛行程收尾的圆月形小岛，白沙滩游泳放松' },
-    { name: '换酒店 · Centara Grand', lat: 7.85774, lng: 98.29066, type: 'hotel', time: '18:00',
-      desc: '683 Karon Beach, Patak Rd · 跳岛船回程在卡伦下车即到，与前一晚酒店相距 1km，行李可中午寄存前台' },
-    { name: '泰式按摩', lat: 7.8555, lng: 98.2915, type: 'spot', time: '19:30',
+    { name: '换酒店 · Centara Grand', lat: 7.85774, lng: 98.29066, type: 'hotel', time: '19:30',
+      desc: '683 Karon Beach, Patak Rd · 19:00 船回普吉后接驳/Grab 回酒店（约 30-40 分钟），行李全天已寄存此处' },
+    { name: '泰式按摩', lat: 7.8555, lng: 98.2915, type: 'spot', time: '21:00',
       desc: '酒店周边按摩店走几步就有，解一天船程的乏',
       budget: '300-500 铢/时', pay: { cash: 1 }, dianping: false }
   ]},
 
-  { id: 4, label: 'D4', date: '09-28 周一 · 环岛日', title: '大佛 · 查龙寺 · 老城 · 日落', color: '#af52de', locations: [
+  { id: 4, label: 'D4', date: '09-28 周一 · 环岛日', title: '大佛 · 老城 · 悬崖咖啡 · 日落', color: '#af52de', locations: [
     { name: '普吉大佛', lat: 7.8281, lng: 98.3139, type: 'spot', time: '08:30',
       desc: '45 米白玉大佛俯瞰南部全景，趁早不晒',
       detail: '着装过膝遮肩（入口有纱笼可借）\n台阶多，穿防滑鞋', xhsKeyword: '普吉大佛 攻略' },
@@ -976,6 +977,9 @@ const DAYS = [
       budget: '人均 150-400 铢', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '普吉老城 美食' },
     { name: '卡伦观景台', lat: 7.8373, lng: 98.2952, type: 'spot', time: '15:30',
       desc: '芭东 / 卡伦 / 卡塔三湾同框的经典机位，上午顺光' },
+    { name: '悬崖咖啡 · Laem Sai Cup', lat: 7.8270, lng: 98.2935, type: 'drink', time: '16:15',
+      desc: '卡塔北端悬崖上的竹露台咖啡，直面安达曼海，小红书爆款「悬崖咖啡厅」本厅',
+      detail: '营业 9:00-19:00（周日休息，恰逢周四无碍）\n约 60 铢/杯起，无低消\n竹楼梯陡+座席有限，16:00 后光线最出片\n导航搜「Laem Sai Cup」或 Kata Rocks 附近小路', budget: '60-150 铢/杯', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '普吉 悬崖咖啡 Laem Sai' },
     { name: '神仙半岛 · 日落', lat: 7.7640, lng: 98.3058, type: 'spot', time: '17:30',
       desc: '全岛第一日落圣地，17:30 前到占位；回程打车难，让司机等',
       detail: '蚊虫多带驱蚊液\n山下 Ya Nui 小湾可浮潜', xhsKeyword: '神仙半岛 日落' }
@@ -984,7 +988,7 @@ const DAYS = [
   { id: 5, label: 'D5', date: '09-29 周二 · 自由日', title: '海滩 · 按摩 · 告别晚餐', color: '#ff2d55', locations: [
     { name: '卡塔海滩', lat: 7.8243, lng: 98.2969, type: 'spot', time: '09:30',
       desc: '从 Centara Grand 沿 Patak Rd 向南步行 15 分钟或嘟嘟车 5 分钟，南端礁石浮潜' },
-    { name: 'After Beach Bar', lat: 7.8342, lng: 98.2943, type: 'drink', time: '16:30',
+    { name: 'After Beach Bar', lat: 7.80895, lng: 98.30217, type: 'drink', time: '16:30',
       desc: '卡塔北坡悬崖酒吧，一杯 Mojito 看安达曼海日落', budget: '人均 200-400 铢', pay: { cash: 1, card: 1 }, dianping: false },
     { name: '告别海鲜晚餐', lat: 7.8955, lng: 98.2965, type: 'food', time: '19:00',
       desc: '班赞再来一顿，或换拉威海鲜排档（见景点图鉴）',
@@ -1021,10 +1025,14 @@ const DAYS = [
     { name: '朗山观景台', lat: 7.8876, lng: 98.3822, type: 'spot', time: '—', desc: '老城旁山顶，看普吉镇全景与夜景' },
     { name: '拉威海鲜排档街', lat: 7.7820, lng: 98.3050, type: 'food', time: '—', desc: '海边排档现买现加工，本地感更强', pay: { cash: 1 }, dianping: false, xhsKeyword: '普吉 拉威海鲜' },
     { name: '查龙码头', lat: 7.8167, lng: 98.3567, type: 'transport', time: '—', desc: '珊瑚岛 / 皇帝岛 / 蜜月岛快艇出发地' },
-    { name: 'Naka 周末夜市', lat: 7.8946, lng: 98.3346, type: 'food', time: '—', desc: '仅周六日 16:00-22:00，普吉最大夜市（09-26 周六可替换 OTOP）', pay: { cash: 1 }, dianping: false },
+    { name: '自由海滩 Freedom Beach（备选）', lat: 7.8730, lng: 98.2840, type: 'spot', time: '—', desc: '长尾船 15 分钟白沙滩，人均 300-500 铢，上午去浪小', pay: { cash: 1 } },
+    { name: 'Naka 周末夜市', lat: 7.8946, lng: 98.3346, type: 'food', time: '—', desc: '仅周六日 16:00-22:00，普吉最大夜市（今天周六，可替换 OTOP）', pay: { cash: 1 }, dianping: false },
     { name: '中央百货 Central Festival', lat: 7.8927, lng: 98.3694, type: 'spot', time: '—', desc: '全岛最大购物中心，顶层美食广场 + 退税', pay: { cash: 1, card: 1, alipay: 0.5 } },
     { name: '西蒙人妖秀', lat: 7.8892, lng: 98.2909, type: 'spot', time: '—', desc: '同 D5 备选，19:00 / 21:00 场次' },
-    { name: '自由海滩', lat: 7.8730, lng: 98.2840, type: 'spot', time: '—', desc: '同 D2 上午安排，长尾船专属抵达' }
+    { name: '自由海滩', lat: 7.8730, lng: 98.2840, type: 'spot', time: '—', desc: '同 D2 备选，长尾船专属抵达' },
+    { name: '丛林飞跃 Hanuman World', lat: 7.87669, lng: 98.35099, type: 'spot', time: '—', desc: '丛林乐园：滑索+天空步道，28 个平台，半日票约 1690 铢起，大雨不开放', pay: { card: 1 }, xhsKeyword: '普吉 Hanuman World 丛林飞跃' },
+    { name: '悬崖咖啡 · Laem Sai Cup', lat: 7.8270, lng: 98.2935, type: 'drink', time: '—', desc: '同 D4 主线：卡塔北端竹露台悬崖咖啡，周日休息', pay: { cash: 1 }, dianping: false },
+    { name: 'Ya Nui 小湾', lat: 7.7590, lng: 98.3060, type: 'spot', time: '—', desc: '神仙半岛山下的迷你浮潜湾，人少水清' }
 ]},
 
   { id: 8, label: 'B1', date: '10-01 周四 · 老城日', title: '大皇宫 · 卧佛寺', color: '#e0ac00', locations: [
