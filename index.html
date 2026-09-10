@@ -946,23 +946,19 @@ const DAYS = [
       budget: '人均 100-300 铢', pay: { cash: 1 }, dianping: false }
   ]},
 
-  { id: 3, label: 'D3', date: '09-27 周日 · 跳岛日', title: '皮皮岛跳岛', color: '#007aff', locations: [
-    { name: '皇家码头 Rassada Pier', lat: 7.9050, lng: 98.3880, type: 'transport', time: '09:00 开船',
-      desc: '一日游 09:00 出发 19:00 返回，通常含酒店接送（约 08:00 上门接）',
-      detail: '晕船提前 30 分钟吃药\n出发前一晚确认船家是否发船（雨季）\n19:00 回到普吉，行李全天寄存 Centara Grand 前台', pay: { cash: 1, card: 1 } },
-    { name: '玛雅湾 Maya Bay', lat: 7.6777, lng: 98.7657, type: 'spot', time: '11:00',
-      desc: '《海滩》取景地，限时登岛 + 限流，跟着船队走', xhsKeyword: '皮皮岛 玛雅湾' },
-    { name: 'Pileh 潟湖 · 浮潜', lat: 7.6842, lng: 98.7628, type: 'spot', time: '12:15',
-      desc: '翡翠色泻湖浮潜，能见度极好的经典点位' },
-    { name: '猴子海滩 Monkey Beach', lat: 7.7446, lng: 98.7664, type: 'spot', time: '14:00',
-      desc: '白沙浅滩，猴子只可远观，护好食物和墨镜' },
-    { name: '竹子岛 Bamboo Island', lat: 7.8108, lng: 98.7713, type: 'spot', time: '15:30',
-      desc: '跳岛行程收尾的圆月形小岛，白沙滩游泳放松' },
-    { name: '换酒店 · Centara Grand', lat: 7.85774, lng: 98.29066, type: 'hotel', time: '19:30',
-      desc: '683 Karon Beach, Patak Rd · 19:00 船回普吉后接驳/Grab 回酒店（约 30-40 分钟），行李全天已寄存此处' },
-    { name: '泰式按摩', lat: 7.8555, lng: 98.2915, type: 'spot', time: '21:00',
-      desc: '酒店周边按摩店走几步就有，解一天船程的乏',
-      budget: '300-500 铢/时', pay: { cash: 1 }, dianping: false }
+  { id: 3, label: 'D3', date: '09-27 周日 · 换酒店', title: '换房 · 卡伦海滩日', color: '#007aff', locations: [
+    { name: 'Centara Karon Villas 退房', lat: 7.8492, lng: 98.2947, type: 'hotel', time: '12:00 前',
+      desc: '上午自然醒，酒店泳池+早餐慢慢享受，12 点前退房',
+      detail: '退房后步行 300m（5 分钟）就是 Centara Grand，行李推过去寄存前台\n下午沙滩包轻装出发' },
+    { name: '行李寄存 · Centara Grand', lat: 7.85774, lng: 98.29066, type: 'hotel', time: '12:15',
+      desc: '683 Karon Beach, Patak Rd · 与前一晚酒店相距仅 1km，行李寄存后正式入住要等 15:00' },
+    { name: '卡伦海滩 · 躺平日', lat: 7.8530, lng: 98.2935, type: 'spot', time: '12:30-18:00',
+      desc: '新酒店门口的 3km 长白沙湾，下午整段都是你的：游泳、沙滩椅、海岸线散步',
+      detail: '雨季浪大：红旗不下水，黄旗腰部，白旗随意\n沙滩椅 100-200 铢/天，遮阳伞同价\n傍晚 18:00-18:30 日落，卡伦日落比卡塔更开阔' },
+    { name: '卡伦寺 · 周日市场', lat: 7.8480, lng: 98.2960, type: 'food', time: '18:30',
+      desc: '海滩北端的小寺庙 + 周日傍晚路边集市，逛吃逛吃解决晚餐', pay: { cash: 1 }, dianping: false },
+    { name: '卡伦夜市 Karon Temple Market（逢周日）', lat: 7.8480, lng: 98.2960, type: 'food', time: '—',
+      desc: '今天恰好周日！卡伦寺前周日夜市：海鲜烧烤、芒果糯米饭、现场乐队', pay: { cash: 1 }, dianping: false, xhsKeyword: '卡伦 周日夜市' }
   ]},
 
   { id: 4, label: 'D4', date: '09-28 周一 · 环岛日', title: '大佛 · 老城 · 悬崖咖啡 · 日落', color: '#af52de', locations: [
@@ -985,18 +981,22 @@ const DAYS = [
       detail: '蚊虫多带驱蚊液\n山下 Ya Nui 小湾可浮潜', xhsKeyword: '神仙半岛 日落' }
   ]},
 
-  { id: 5, label: 'D5', date: '09-29 周二 · 自由日', title: '海滩 · 按摩 · 告别晚餐', color: '#ff2d55', locations: [
-    { name: '卡塔海滩', lat: 7.8243, lng: 98.2969, type: 'spot', time: '09:30',
-      desc: '从 Centara Grand 沿 Patak Rd 向南步行 15 分钟或嘟嘟车 5 分钟，南端礁石浮潜' },
-    { name: 'After Beach Bar', lat: 7.80895, lng: 98.30217, type: 'drink', time: '16:30',
-      desc: '卡塔北坡悬崖酒吧，一杯 Mojito 看安达曼海日落', budget: '人均 200-400 铢', pay: { cash: 1, card: 1 }, dianping: false },
-    { name: '告别海鲜晚餐', lat: 7.8955, lng: 98.2965, type: 'food', time: '19:00',
-      desc: '班赞再来一顿，或换拉威海鲜排档（见景点图鉴）',
-      budget: '人均 600-1000 铢', pay: { cash: 1 }, dianping: false },
-    { name: '珊瑚岛半日跳岛（备选）', lat: 7.7730, lng: 98.2600, type: 'spot', time: '—',
-      desc: '跳岛上瘾的话，查龙码头出发 15 分钟快艇到珊瑚岛' },
-    { name: '西蒙人妖秀（备选）', lat: 7.8892, lng: 98.2909, type: 'spot', time: '—',
-      desc: '老牌歌舞秀老少皆宜，约 700-1200 铢，提前线上订', pay: { cash: 1, card: 1 } }
+  { id: 5, label: 'D5', date: '09-29 周二 · 跳岛日', title: '皮皮岛跳岛一日游', color: '#ff2d55', locations: [
+    { name: '酒店接送 · 出发', lat: 7.85774, lng: 98.29066, type: 'transport', time: '08:00 接',
+      desc: '旅行社专车上门接（Centara Grand 大堂），全天跟团、晚上送回酒店门口，零行李负担',
+      detail: '确认订单写清酒店名：Centara Grand Beach Resort Phuket\n只带:沙滩包+防晒+干爽衣物+防水袋\n晕船提前 30 分钟吃药\n雨季出发前一晚确认船家发船' },
+    { name: '皇家码头 Rassada Pier', lat: 7.9050, lng: 98.3880, type: 'transport', time: '09:00 开船',
+      desc: '皮皮岛方向一日游集合码头，车程约 40 分钟', pay: { cash: 1, card: 1 } },
+    { name: '玛雅湾 Maya Bay', lat: 7.6777, lng: 98.7657, type: 'spot', time: '11:00',
+      desc: '《海滩》取景地，限时登岛 + 限流，跟着船队走', xhsKeyword: '皮皮岛 玛雅湾' },
+    { name: 'Pileh 潟湖 · 浮潜', lat: 7.6842, lng: 98.7628, type: 'spot', time: '12:15',
+      desc: '翡翠色泻湖浮潜，能见度极好的经典点位' },
+    { name: '猴子滩 Monkey Beach', lat: 7.6880, lng: 98.7640, type: 'spot', time: '14:00',
+      desc: '野生猴子聚居的白沙滩，看管好墨镜和食物' },
+    { name: '竹子岛 Bamboo Island', lat: 7.7300, lng: 98.8630, type: 'spot', time: '15:30',
+      desc: '跳岛行程收尾的奶油白沙滩，绕岛步行一圈 20 分钟' },
+    { name: '回到酒店 · 告别晚餐', lat: 7.85774, lng: 98.29066, type: 'food', time: '19:30',
+      desc: '送回 Centara Grand 门口，洗掉一身盐，酒店餐厅或卡伦街边告别晚餐', pay: { cash: 1, card: 1 }, dianping: false }
   ]},
 
   { id: 6, label: 'D6', date: '09-30 周三 · 双城转运', title: '飞曼谷 · 入住 On Nut', color: '#00c7be', locations: [
@@ -1028,7 +1028,7 @@ const DAYS = [
     { name: '自由海滩 Freedom Beach（备选）', lat: 7.8730, lng: 98.2840, type: 'spot', time: '—', desc: '长尾船 15 分钟白沙滩，人均 300-500 铢，上午去浪小', pay: { cash: 1 } },
     { name: 'Naka 周末夜市', lat: 7.8946, lng: 98.3346, type: 'food', time: '—', desc: '仅周六日 16:00-22:00，普吉最大夜市（今天周六，可替换 OTOP）', pay: { cash: 1 }, dianping: false },
     { name: '中央百货 Central Festival', lat: 7.8927, lng: 98.3694, type: 'spot', time: '—', desc: '全岛最大购物中心，顶层美食广场 + 退税', pay: { cash: 1, card: 1, alipay: 0.5 } },
-    { name: '西蒙人妖秀', lat: 7.8892, lng: 98.2909, type: 'spot', time: '—', desc: '同 D5 备选，19:00 / 21:00 场次' },
+    { name: '西蒙人妖秀', lat: 7.8892, lng: 98.2909, type: 'spot', time: '—', desc: '经典歌舞秀 19:00 / 21:00 场次' },
     { name: '自由海滩', lat: 7.8730, lng: 98.2840, type: 'spot', time: '—', desc: '同 D2 备选，长尾船专属抵达' },
     { name: '丛林飞跃 Hanuman World', lat: 7.87669, lng: 98.35099, type: 'spot', time: '—', desc: '丛林乐园：滑索+天空步道，28 个平台，半日票约 1690 铢起，大雨不开放', pay: { card: 1 }, xhsKeyword: '普吉 Hanuman World 丛林飞跃' },
     { name: '悬崖咖啡 · Laem Sai Cup', lat: 7.8270, lng: 98.2935, type: 'drink', time: '—', desc: '同 D4 主线：卡塔北端竹露台悬崖咖啡，周日休息', pay: { cash: 1 }, dianping: false },
