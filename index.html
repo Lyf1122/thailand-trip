@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>泰国双城 · 普吉岛+曼谷 · 0925-1004 旅行地图</title>
-<meta name="description" content="泰国 2026.09.25-10.04 普吉岛+曼谷双城交互式旅行地图：海滩、跳岛、大皇宫、四面佛、ICONSIAM 与每日行程">
+<meta name="description" content="泰国 2026.09.25-10.04 普吉岛+曼谷双城交互式旅行地图：海滩、出海、环岛、大皇宫、四面佛、ICONSIAM 与每日行程">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
@@ -982,22 +982,27 @@ const DAYS = [
       budget: '人均 150-400 铢', pay: { cash: 1 }, dianping: false }
   ]},
 
-  { id: 5, label: 'D5', date: '09-29 周二 · 跳岛日', title: '皮皮岛跳岛一日游', color: '#ff2d55', locations: [
-    { name: '酒店接送 · 出发', lat: 7.85774, lng: 98.29066, type: 'transport', time: '08:00 接',
-      desc: '旅行社专车上门接（Centara Grand 大堂），全天跟团、晚上送回酒店门口，零行李负担',
-      detail: '确认订单写清酒店名：Centara Grand Beach Resort Phuket\n只带:沙滩包+防晒+干爽衣物+防水袋\n晕船提前 30 分钟吃药\n雨季出发前一晚确认船家发船' },
-    { name: '皇家码头 Rassada Pier', lat: 7.9050, lng: 98.3880, type: 'transport', time: '09:00 开船',
-      desc: '皮皮岛方向一日游集合码头，车程约 40 分钟', pay: { cash: 1, card: 1 } },
-    { name: '玛雅湾 Maya Bay', lat: 7.6777, lng: 98.7657, type: 'spot', time: '11:00',
-      desc: '《海滩》取景地，限时登岛 + 限流，跟着船队走', xhsKeyword: '皮皮岛 玛雅湾' },
-    { name: 'Pileh 潟湖 · 浮潜', lat: 7.6842, lng: 98.7628, type: 'spot', time: '12:15',
-      desc: '翡翠色泻湖浮潜，能见度极好的经典点位' },
-    { name: '猴子滩 Monkey Beach', lat: 7.6880, lng: 98.7640, type: 'spot', time: '14:00',
-      desc: '野生猴子聚居的白沙滩，看管好墨镜和食物' },
-    { name: '竹子岛 Bamboo Island', lat: 7.7300, lng: 98.8630, type: 'spot', time: '15:30',
-      desc: '跳岛行程收尾的奶油白沙滩，绕岛步行一圈 20 分钟' },
-    { name: '回到酒店 · 告别晚餐', lat: 7.85774, lng: 98.29066, type: 'food', time: '19:30',
-      desc: '送回 Centara Grand 门口，洗掉一身盐，酒店餐厅或卡伦街边告别晚餐', pay: { cash: 1, card: 1 }, dianping: false }
+  { id: 5, label: 'D5', date: '09-29 周二 · 环岛日', title: '大佛 · 老城 · 悬崖咖啡 · 日落', color: '#ff2d55', locations: [
+    { name: '普吉大佛', lat: 7.8281, lng: 98.3139, type: 'spot', time: '08:30',
+      desc: '45 米白玉大佛佮瞰南部全景，趁早不晒',
+      detail: '着装过膝遮肩（入口有纱笼可借）\n台阶多，穿防滑鞋', xhsKeyword: '普吉大佛 攻略' },
+    { name: '查龙寺', lat: 7.8945, lng: 98.3520, type: 'spot', time: '10:30',
+      desc: '普吉最大最灵的寺庙，布施时间约 09:00 / 17:00' },
+    { name: '普吉老城 · 骑楼午餐', lat: 7.8844, lng: 98.3867, type: 'food', time: '12:00',
+      desc: '中葡骑楼 + 壁画街，福建面 / 海南鸡饭 / Oh Aew',
+      detail: 'One Chun、Raya 是老牌泰餐（排队，11:30 前到）\n建议 15:00 后光线好出片',
+      budget: '人均 150-400 铢', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '普吉老城 美食' },
+    { name: '卡伦观景台', lat: 7.8373, lng: 98.2952, type: 'spot', time: '15:30',
+      desc: '芭东 / 卡伦 / 卡塔三湾同框的经典机位，上午顺光' },
+    { name: '悬崖咖啡 · Laem Sai Cup', lat: 7.8270, lng: 98.2935, type: 'drink', time: '16:15',
+      desc: '卡塔北端悬崖上的竹露台咖啡，直面安达曼海，小红书爆款「悬崖咖啡厅」本厅',
+      detail: '营业 9:00-19:00（周日休息，周二无碍）\n约 60 铢/杯起，无低消\n竹楼梯陡+座席有限，16:00 后光线最出片\n导航搜「Laem Sai Cup」或 Kata Rocks 附近小路', budget: '60-150 铢/杯', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '普吉 悬崖咖啡 Laem Sai' },
+    { name: '神仙半岛 · 日落', lat: 7.7640, lng: 98.3058, type: 'spot', time: '17:30',
+      desc: '全岛第一日落圣地，17:30 前到占位；回程打车难，让司机等',
+      detail: '蚊虫多带驱蚊液\n山下 Ya Nui 小湾可浮潜', xhsKeyword: '神仙半岛 日落' },
+    { name: '卡伦 · 告别晚餐', lat: 7.8530, lng: 98.2935, type: 'food', time: '19:30',
+      desc: '普吉最后一晚，卡伦街边或收藏餐厅任选，早点收拾行李（明早退房飞曼谷）',
+      budget: '人均 200-500 铢', pay: { cash: 1 }, dianping: false }
   ]},
 
   { id: 6, label: 'D6', date: '09-30 周三 · 双城转运', title: '飞曼谷 · 入住 On Nut', color: '#00c7be', locations: [
@@ -1036,7 +1041,7 @@ const DAYS = [
       detail: '招牌 Pad Thai + 虾\n饭点排队，错峰 17:00 前到\n和 After Beach Bar 同在卡塔，可串行程', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '普吉 Pad Thai Shop' },
     { name: '🍽 收藏 · Agli Amici 披萨', lat: 7.82413, lng: 98.34362, type: 'food', time: '—',
       desc: '查龙区那不勒斯窑烤披萨，意大利人开的，普吉口碑前三的披萨店',
-      detail: '窑炉现烤，玛格丽特约 300-400 铢\n查龙寺附近，可排环岛备选日同日\n晚餐时段建议订位', pay: { cash: 1, card: 1 }, dianping: false },
+      detail: '窑炉现烤，玛格丽特约 300-400 铢\n查龙寺附近，可排 D5 环岛日同日\n晚餐时段建议订位', pay: { cash: 1, card: 1 }, dianping: false },
     { name: '🍽 收藏 · Niyom 盐烤鸭', lat: 7.86622, lng: 98.34941, type: 'food', time: '—',
       desc: '本地人排队的盐烤鸭饭，皮脆肉嫩，苍蝇馆子价格地道味',
       detail: '一只鸭约 400-500 铢，也可点半只/拼盘\n中午去最稳，晚市常售罄\n在 Central Festival 西侧 1.5km，逛商场可顺路', pay: { cash: 1 }, dianping: false },
@@ -1044,11 +1049,8 @@ const DAYS = [
       desc: '普吉老字号泰式奶茶（80 年前创于普吉老城），Central Festival 有店，手信茶叶可带走',
       detail: '招牌泰奶 60-80 铢，偏甜可说 less sweet\n老城或商场顺路打卡\n手信党：店里有罐装茶叶卖', pay: { cash: 1, card: 1, alipay: 0.5 }, dianping: false, xhsKeyword: 'ChaTraMue 泰式奶茶' },
     { name: '丛林飞跃 Hanuman World', lat: 7.87669, lng: 98.35099, type: 'spot', time: '—', desc: '丛林乐园：滑索+天空步道，28 个平台，半日票约 1690 铢起，大雨不开放', pay: { card: 1 }, xhsKeyword: '普吉 Hanuman World 丛林飞跃' },
-    { name: '悬崖咖啡 · Laem Sai Cup', lat: 7.8270, lng: 98.2935, type: 'drink', time: '—', desc: '卡塔北端竹露台悬崖咖啡，周日休息（环岛备选日顺路）', pay: { cash: 1 }, dianping: false },
-    { name: 'Ya Nui 小湾', lat: 7.7590, lng: 98.3060, type: 'spot', time: '—', desc: '神仙半岛山下的迷你浮潜湾，人少水清' },
-    { name: '🚗 备选 · 环岛西线一日（原 D4 动线）', lat: 7.8281, lng: 98.3139, type: 'spot', time: '—',
-      desc: '出海日若取消/想换陆地：大佛 08:30 → 查龙寺 → 普吉老城骑楼午餐 → 卡伦观景台 → 悬崖咖啡 → 神仙半岛日落',
-      detail: '大佛着装过膝遮肩，台阶多穿防滑鞋\n老城 One Chun / Raya 11:30 前到免排队\n神仙半岛回程打车难，让司机等', xhsKeyword: '普吉 环岛 一日游' }
+    { name: '悬崖咖啡 · Laem Sai Cup', lat: 7.8270, lng: 98.2935, type: 'drink', time: '—', desc: '卡塔北端竹露台悬崖咖啡，周日休息（D5 环岛日主线）', pay: { cash: 1 }, dianping: false },
+    { name: 'Ya Nui 小湾', lat: 7.7590, lng: 98.3060, type: 'spot', time: '—', desc: '神仙半岛山下的迷你浮潜湾，人少水清' }
 ]},
 
   { id: 8, label: 'B1', date: '10-01 周四 · 老城日', title: '大皇宫 · 卧佛寺', color: '#e0ac00', locations: [
