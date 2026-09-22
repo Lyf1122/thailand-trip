@@ -962,7 +962,7 @@ const DAYS = [
       desc: '今天恰好周日！卡伦寺前周日夜市：海鲜烧烤、芒果糯米饭、现场乐队', pay: { cash: 1 }, dianping: false, xhsKeyword: '卡伦 周日夜市' },
     { name: '⭐ 加场 · 普吉老城周日夜市 Lard Yai（逢周日）', lat: 7.8844, lng: 98.3867, type: 'food', time: '17:00-21:30',
       desc: '普吉最上镜的夜市：Thalang 路整条老骑楼步行街，灯笼+中葡彩墙+街头小吃，只有周日开！从卡伦打车约 40 分钟，不想跑就维持卡伦寺小夜市',
-      detail: '逢周日 16:00-22:00，傍晚到天黑后最热闹\n从卡伦 Grab 约 40 分钟（500-600 铢），22:00 前返程不难\nD5 周二去老城赶不上，喜欢夜市氛围今晚是唯一机会\n芒果糯米饭、烤猪排、Roti 煎饼、现榨果汁管够', budget: '人均 100-300 铢', pay: { cash: 1 }, dianping: false, xhsKeyword: '普吉 Lard Yai 周日夜市' }
+      detail: '逢周日 16:00-22:00，傍晚到天黑后最热闹\n从卡伦 Grab 约 40 分钟（500-600 铢），22:00 前返程不难\nD5 周二去老城赶不上，喜欢夜市氛围今晚是唯一机会\n芒果糯米饭、烤猪排、Roti 煎饼、现榨果汁管够\n夜市本身就是手信场：手工皂、果酱、帆布包比老城铺子更好砍', budget: '人均 100-300 铢', pay: { cash: 1 }, dianping: false, xhsKeyword: '普吉 Lard Yai 周日夜市' }
   ]},
 
   { id: 4, label: 'D4', date: '09-28 周一 · 出海日', title: '贝拉号 · 皇帝岛 + 珊瑚岛', color: '#af52de', locations: [
@@ -981,9 +981,9 @@ const DAYS = [
       detail: '水上项目现场现金谈价，先问清含不含照片\n沙滩椅免费区一般在船家遮阳棚下\n离普吉本岛最近，浪相对小', xhsKeyword: '珊瑚岛 普吉 水上项目' },
     { name: '返回查龙码头 · 送回酒店', lat: 7.8167, lng: 98.3567, type: 'transport', time: '18:00',
       desc: '约 18:00 回港，专车送回 Centara Grand，洗掉一身盐', pay: { cash: 1, card: 1 } },
-    { name: '卡伦 · 晚餐', lat: 7.8530, lng: 98.2935, type: 'food', time: '19:00',
-      desc: '出海一天累了，酒店周边或卡伦街边简单晚餐，早点休息',
-      budget: '人均 150-400 铢', pay: { cash: 1 }, dianping: false }
+    { name: '酒店自助晚餐 · The Cove', lat: 7.85774, lng: 98.29066, type: 'food', time: '19:00',
+      desc: '出海一天累了，今晚不出门：酒店 The Cove 全日餐厅自助晚餐，国际+亚洲菜都有，吃完直接回房躺平',
+      detail: '自助晚餐常有主题夜（海鲜/烧烤/国际菜式轮换），价格以当日挂牌为准\n当天下午提前在大堂或餐厅订位最稳\n住店三天里最适合吃自助的就是今晚（出海归来最累）', pay: { cash: 1, card: 1 }, dianping: false }
   ]},
 
   { id: 5, label: 'D5', date: '09-29 周二 · 环岛日', title: '大佛 · 老城 · 悬崖咖啡日落', color: '#ff2d55', locations: [
@@ -992,10 +992,10 @@ const DAYS = [
       detail: '着装过膝遮肩（入口有纱笼可借）\n台阶多，穿防滑鞋', xhsKeyword: '普吉大佛 攻略' },
     { name: '查龙寺', lat: 7.8945, lng: 98.3520, type: 'spot', time: '10:30',
       desc: '普吉最大最灵的寺庙，布施时间约 09:00 / 17:00' },
-    { name: '普吉老城 · 骑楼午餐', lat: 7.8844, lng: 98.3867, type: 'food', time: '12:00',
-      desc: '中葡骑楼 + 壁画街，福建面 / 海南鸡饭 / Oh Aew',
-      detail: 'One Chun、Raya 是老牌泰餐（排队，11:30 前到）\n建议 15:00 后光线好出片',
-      budget: '人均 150-400 铢', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '普吉老城 美食' },
+    { name: '普吉老城 · 逛吃+扫手信', lat: 7.8844, lng: 98.3867, type: 'food', time: '12:00-15:00',
+      desc: '中葡骑楼 + 壁画街，福建面 / 海南鸡饭 / Oh Aew；顺便扫地方特色手信：南春/Phoon 手工菓子酱、腰果、老宅咖啡、帆布包、手工皂',
+      detail: 'One Chun、Raya 是老牌泰餐（排队，11:30 前到）\n扫货动线：Thalang 路 + Soi Romanee 彩色骑楼一带精品店最集中\n手信推荐：腰果礼盒、香茅/椰子手工皂、本地咖啡豆、帆布包\n午后雨季常有阵雨，逛骑楼骑下正好躲雨；15:00 后光线好出片\n不想拎的商场款手信可留到曼谷 Big C 一次性买',
+      budget: '人均 150-400 铢 + 手信', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '普吉老城 美食 手信' },
     { name: '卡伦观景台', lat: 7.8373, lng: 98.2952, type: 'spot', time: '15:30',
       desc: '芭东 / 卡伦 / 卡塔三湾同框的经典机位，上午顺光' },
     { name: '悬崖咖啡 · Laem Sai Cup', lat: 7.8270, lng: 98.2935, type: 'drink', time: '16:15-18:40',
