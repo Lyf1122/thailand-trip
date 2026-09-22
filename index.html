@@ -921,29 +921,30 @@ const DAYS = [
       budget: '车费 100-900 铢', pay: { cash: 1, card: 1 } },
     { name: 'Centara Karon Villas 入住', lat: 7.84992, lng: 98.29638, type: 'hotel', time: '约 15:15',
       desc: '502/10 Moo 1, Karon · 卡伦北端山坡别墅区，步行 5-8 分钟到海滩' },
-    { name: '江西冷购物中心', lat: 7.8970, lng: 98.2970, type: 'spot', time: '17:00',
-      desc: '换汇（楼上汇率常更好）+ Big C 采购日用品和手信',
-      budget: '人均 100-300 铢', pay: { cash: 1, card: 1, alipay: 0.5 }, xhsKeyword: '普吉 江西冷 攻略' },
-    { name: '芭东海滩 · 第一场日落', lat: 7.8960, lng: 98.2966, type: 'spot', time: '18:20',
-      desc: '日落约 18:20。从 Centara Karon Villas 步行 5-8 分钟即达沙滩' },
-    { name: '邦古拉街 Bangla Road', lat: 7.8970, lng: 98.2955, type: 'drink', time: '20:30',
-      desc: '夜生活心脏，纯观光也值得走一圈',
-      detail: '带现金和小额纸币\n先看价再点酒水\n18:00-21:00 氛围最友好', xhsKeyword: '普吉 邦古拉街' }
+    { name: '卡伦商圈 · 换汇+采购', lat: 7.8460, lng: 98.2955, type: 'spot', time: '17:00',
+      desc: '酒店门口 Karon 路上的换汇亭（Superrich 等多家比价）+ 7-11/FamilyMart 采购日用品',
+      detail: '换汇认准黄色 Superrich 或挂牌照的 Exchange 亭，汇率好于机场\n大额分几家比价，差价不小\n不想带现金的后面去 Central Festival（支持支付宝）',
+      budget: '人均 100-300 铢', pay: { cash: 1, card: 1, alipay: 0.5 } },
+    { name: '卡伦海滩 · 第一场日落', lat: 7.8490, lng: 98.2947, type: 'spot', time: '18:20',
+      desc: '日落约 18:20。酒店门口的 3km 长白沙湾，第一天哪也不去，就在沙滩躺到天黑' },
+    { name: '卡伦街边 · 晚餐', lat: 7.8460, lng: 98.2960, type: 'food', time: '20:00',
+      desc: 'Karon Plaza 一带餐厅步行可达：泰炒、烤鱼、水果摇，今晚倒时差早点休',
+      detail: '带现金和小额纸币\n先看价再点菜\n第一天别吃太生冷，肠胃适应两天再放开', pay: { cash: 1 }, dianping: false }
   ]},
 
-  { id: 2, label: 'D2', date: '09-26 周六 · 动物日', title: '大象保护营 · 班赞海鲜', color: '#34c759', locations: [
+  { id: 2, label: 'D2', date: '09-26 周六 · 动物日', title: '大象保护营 · 拉威海鲜', color: '#34c759', locations: [
     { name: '大象保护营 Elephant Jungle Sanctuary', lat: 7.91893, lng: 98.33023, type: 'spot', time: '08:30-13:00',
       desc: '无骑乘的道德大象营：喂食、泥浴、河里给大象洗澡，半日营含酒店接送',
       detail: '半日营约 2500-3000 铢/人（Klook/官网订，含接送+午餐）\n穿速干衣和拖鞋，会全身泥\n怕晒带防水袋装手机\n从卡伦接约 30 分钟车程', budget: '2500-3000 铢/人', pay: { card: 1 }, xhsKeyword: '普吉 大象保护营 攻略' },
     { name: '卡伦海滩 · 午后休整', lat: 7.8445, lng: 98.2947, type: 'spot', time: '14:30',
       desc: '回酒店冲个澡，下午酒店门口的卡伦海滩躺平：细白沙长滩，雨季浪大红旗勿下水' },
-    { name: '班赞生鲜市场', lat: 7.8955, lng: 98.2965, type: 'food', time: '17:00',
-      desc: '一楼买海鲜二楼加工，芭东海鲜性价比天花板',
-      detail: '按公斤问价，现挑现做\n加工费另算\n17:00-19:00 人最多，赶早',
-      budget: '人均 600-1000 铢', pay: { cash: 1 }, dianping: false, xhsKeyword: '普吉 班赞海鲜市场 攻略' },
-    { name: 'OTOP 夜市', lat: 7.8990, lng: 98.2945, type: 'food', time: '20:30',
-      desc: '烤鱿鱼、芒果糯米饭、现榨果汁，纪念品对半砍价',
-      budget: '人均 100-300 铢', pay: { cash: 1 }, dianping: false }
+    { name: '拉威海鲜排档街', lat: 7.7820, lng: 98.3050, type: 'food', time: '17:30',
+      desc: '海边的排档一条街：前排现挑龙虾石斑皮皮虾，后排现买现加工，本地感比芭东班赞更强',
+      detail: '从卡伦打车约 15-20 分钟（300-400 铢），回程让司机等或用 Bolt\n按公斤问价，加工费另算，先谈好再杀\n17:30 到天黑前挑海鲜光线好，也避开饭点高峰\n隔壁就是拉威沙滩，饭前可以遛一遛',
+      budget: '人均 500-900 铢', pay: { cash: 1 }, dianping: false, xhsKeyword: '普吉 拉威海鲜 攻略' },
+    { name: 'Naka 周末夜市', lat: 7.8946, lng: 98.3346, type: 'food', time: '20:00',
+      desc: '仅周六日 16:00-22:00，普吉最大夜市：烤鱿鱼、芒果糯米饭、现榨果汁，纪念品对半砍价',
+      detail: '从拉威过去约 25 分钟车程，连着海鲜一顿拿下\n今天周六开门，别错过\n现金为主，小贩多不刷卡', budget: '人均 100-300 铢', pay: { cash: 1 }, dianping: false }
   ]},
 
   { id: 3, label: 'D3', date: '09-27 周日 · 换酒店', title: '换房 · 卡伦海滩日', color: '#007aff', locations: [
@@ -1022,17 +1023,17 @@ const DAYS = [
   ]},
 
   { id: 7, label: '景点图鉴', date: '全岛备选 · 随时插队', title: '全岛景点图鉴', color: '#5ac8fa', locations: [
-    { name: '芭东海滩', lat: 7.8960, lng: 98.2966, type: 'spot', time: '—', desc: '普吉最热闹海滩，夜生活核心（车程 15 分钟）' },
+    { name: '芭东海滩（不去）', lat: 7.8960, lng: 98.2966, type: 'spot', time: '—', desc: '普吉最热闹海滩，夜生活核心；人多杂乱，本次不安排' },
     { name: '卡伦海滩', lat: 7.8414, lng: 98.2947, type: 'spot', time: '—', desc: '细白沙长滩，雨季浪大注意红旗（酒店门口）' },
     { name: '奈涵海滩', lat: 7.7797, lng: 98.3137, type: 'spot', time: '—', desc: '本地人最爱的清静海湾，水清沙细' },
     { name: '卡马拉海滩', lat: 7.9850, lng: 98.2910, type: 'spot', time: '—', desc: '渔村改造的悠闲海湾，适合家庭' },
     { name: '苏林海滩', lat: 7.9469, lng: 98.2854, type: 'spot', time: '—', desc: '高档酒店区旁的安静海滩' },
     { name: '班陶海滩', lat: 7.9950, lng: 98.2900, type: 'spot', time: '—', desc: '6 公里长沙滩，Laguna 度假村群' },
     { name: '朗山观景台', lat: 7.8876, lng: 98.3822, type: 'spot', time: '—', desc: '老城旁山顶，看普吉镇全景与夜景' },
-    { name: '拉威海鲜排档街', lat: 7.7820, lng: 98.3050, type: 'food', time: '—', desc: '海边排档现买现加工，本地感更强', pay: { cash: 1 }, dianping: false, xhsKeyword: '普吉 拉威海鲜' },
+    { name: '拉威海鲜排档街', lat: 7.7820, lng: 98.3050, type: 'food', time: '—', desc: '同 D2 主线：海边排档现买现加工，本地感更强', pay: { cash: 1 }, dianping: false, xhsKeyword: '普吉 拉威海鲜' },
     { name: '查龙码头', lat: 7.8167, lng: 98.3567, type: 'transport', time: '—', desc: '珊瑚岛 / 皇帝岛 / 蜜月岛快艇出发地' },
     { name: '自由海滩 Freedom Beach（备选）', lat: 7.8730, lng: 98.2840, type: 'spot', time: '—', desc: '长尾船 15 分钟白沙滩，人均 300-500 铢，上午去浪小', pay: { cash: 1 } },
-    { name: 'Naka 周末夜市', lat: 7.8946, lng: 98.3346, type: 'food', time: '—', desc: '仅周六日 16:00-22:00，普吉最大夜市（今天周六，可替换 OTOP）', pay: { cash: 1 }, dianping: false },
+    { name: 'Naka 周末夜市', lat: 7.8946, lng: 98.3346, type: 'food', time: '—', desc: '仅周六日 16:00-22:00，普吉最大夜市（已排入 D2 周六）', pay: { cash: 1 }, dianping: false },
     { name: '中央百货 Central Festival', lat: 7.8927, lng: 98.3694, type: 'spot', time: '—', desc: '全岛最大购物中心，顶层美食广场 + 退税', pay: { cash: 1, card: 1, alipay: 0.5 } },
     { name: '西蒙人妖秀', lat: 7.8892, lng: 98.2909, type: 'spot', time: '—', desc: '经典歌舞秀 19:00 / 21:00 场次' },
     { name: '自由海滩', lat: 7.8730, lng: 98.2840, type: 'spot', time: '—', desc: '同 D2 备选，长尾船专属抵达' },
@@ -1141,7 +1142,7 @@ function overviewContent() {
 <div class="section-head">支付提醒</div>
 <div class="pay-summary"><h4>现金为王</h4>夜市、tuktuk、排档、小费只收现金。ATM 每笔手续费 <b>220 铢</b>，一次取够更划算。入境现金抽查：个人 ≥10,000 铢或等值（家庭 20,000），概率低但建议备。</div>
 <div class="pay-summary"><h4>曼谷支付</h4>商场/便利店支付宝微信普及率高于普吉；夜市/市场/渡船只收现金。BTS 单程 17-62 铢，自动售票机收硬币和小额纸币，站内可换零。</div>
-<div class="pay-summary"><h4>汇率参考</h4>1 CNY ≈ 4.6-4.9 THB，以实时为准。大商场支持支付宝/微信；江西冷楼上换汇汇率常更好。</div>
+<div class="pay-summary"><h4>汇率参考</h4>1 CNY ≈ 4.6-4.9 THB，以实时为准。大商场支持支付宝/微信；换汇认准 Superrich 等挂牌换汇亭（卡伦路上就有，多比几家），汇率好于机场。</div>
 <div class="section-head">天气与海况 · 9 月底</div>
 <div class="pay-summary"><span class="warn">雨季尾声：28-32°C，多为午后短时阵雨。</span>西海岸浪大，<span class="warn">红旗海滩勿下水</span>；出海选大船/双体船更稳，出发前一晚确认发船。日落约 18:20。</div>
 <div class="section-head">行前清单</div>
