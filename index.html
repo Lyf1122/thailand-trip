@@ -983,7 +983,7 @@ const DAYS = [
       budget: '人均 150-400 铢', pay: { cash: 1 }, dianping: false }
   ]},
 
-  { id: 5, label: 'D5', date: '09-29 周二 · 环岛日', title: '大佛 · 老城 · 悬崖咖啡 · 日落', color: '#ff2d55', locations: [
+  { id: 5, label: 'D5', date: '09-29 周二 · 环岛日', title: '大佛 · 老城 · 悬崖咖啡日落', color: '#ff2d55', locations: [
     { name: '普吉大佛', lat: 7.8281, lng: 98.3139, type: 'spot', time: '08:30',
       desc: '45 米白玉大佛佮瞰南部全景，趁早不晒',
       detail: '着装过膝遮肩（入口有纱笼可借）\n台阶多，穿防滑鞋', xhsKeyword: '普吉大佛 攻略' },
@@ -995,14 +995,11 @@ const DAYS = [
       budget: '人均 150-400 铢', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '普吉老城 美食' },
     { name: '卡伦观景台', lat: 7.8373, lng: 98.2952, type: 'spot', time: '15:30',
       desc: '芭东 / 卡伦 / 卡塔三湾同框的经典机位，上午顺光' },
-    { name: '悬崖咖啡 · Laem Sai Cup', lat: 7.8270, lng: 98.2935, type: 'drink', time: '16:15',
-      desc: '卡塔北端悬崖上的竹露台咖啡，直面安达曼海，小红书爆款「悬崖咖啡厅」本厅',
-      detail: '营业 9:00-19:00（周日休息，周二无碍）\n约 60 铢/杯起，无低消\n竹楼梯陡+座席有限，16:00 后光线最出片\n导航搜「Laem Sai Cup」或 Kata Rocks 附近小路', budget: '60-150 铢/杯', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '普吉 悬崖咖啡 Laem Sai' },
-    { name: '神仙半岛 · 日落', lat: 7.7640, lng: 98.3058, type: 'spot', time: '17:30',
-      desc: '全岛第一日落圣地，17:30 前到占位；回程打车难，让司机等',
-      detail: '蚊虫多带驱蚊液\n山下 Ya Nui 小湾可浮潜', xhsKeyword: '神仙半岛 日落' },
-    { name: '卡伦 · 告别晚餐', lat: 7.8530, lng: 98.2935, type: 'food', time: '19:30',
-      desc: '普吉最后一晚，卡伦街边或收藏餐厅任选，早点收拾行李（明早退房飞曼谷）',
+    { name: '悬崖咖啡 · Laem Sai Cup', lat: 7.8270, lng: 98.2935, type: 'drink', time: '16:15-18:40',
+      desc: '卡塔北端悬崖上的竹露台咖啡，直面安达曼海，小红书爆款「悬崖咖啡厅」本厅；坐到天黑直接看日落（约 18:20）',
+      detail: '营业 9:00-19:00（周日休息，周二无碍）\n约 60 铢/杯起，无低消\n竹楼梯陡+座席有限，16:00 后光线最出片\n导航搜「Laem Sai Cup」或 Kata Rocks 附近小路\n日落后回卡伦约 15 分钟车程', budget: '60-150 铢/杯', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '普吉 悬崖咖啡 Laem Sai' },
+    { name: '卡伦 · 告别晚餐', lat: 7.8530, lng: 98.2935, type: 'food', time: '19:15',
+      desc: '普吉最后一晚，看完日落回卡伦晚餐或收藏餐厅任选，早点收拾行李（明早退房飞曼谷）',
       budget: '人均 200-500 铢', pay: { cash: 1 }, dianping: false }
   ]},
 
@@ -1051,7 +1048,8 @@ const DAYS = [
       detail: '招牌泰奶 60-80 铢，偏甜可说 less sweet\n老城或商场顺路打卡\n手信党：店里有罐装茶叶卖', pay: { cash: 1, card: 1, alipay: 0.5 }, dianping: false, xhsKeyword: 'ChaTraMue 泰式奶茶' },
     { name: '丛林飞跃 Hanuman World', lat: 7.87669, lng: 98.35099, type: 'spot', time: '—', desc: '丛林乐园：滑索+天空步道，28 个平台，半日票约 1690 铢起，大雨不开放', pay: { card: 1 }, xhsKeyword: '普吉 Hanuman World 丛林飞跃' },
     { name: '悬崖咖啡 · Laem Sai Cup', lat: 7.8270, lng: 98.2935, type: 'drink', time: '—', desc: '卡塔北端竹露台悬崖咖啡，周日休息（D5 环岛日主线）', pay: { cash: 1 }, dianping: false },
-    { name: 'Ya Nui 小湾', lat: 7.7590, lng: 98.3060, type: 'spot', time: '—', desc: '神仙半岛山下的迷你浮潜湾，人少水清' }
+    { name: 'Ya Nui 小湾', lat: 7.7590, lng: 98.3060, type: 'spot', time: '—', desc: '神仙半岛山下的迷你浮潜湾，人少水清' },
+    { name: '神仙半岛 Promthep Cape（不去）', lat: 7.7640, lng: 98.3058, type: 'spot', time: '—', desc: '经典日落圣地；D4 贝拉号出海航线会经过南部海域，海上即可看，不单独前往' }
 ]},
 
   { id: 8, label: 'B1', date: '10-01 周四 · 老城日', title: '大皇宫 · 卧佛寺', color: '#e0ac00', locations: [
