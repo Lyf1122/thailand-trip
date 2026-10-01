@@ -1064,53 +1064,39 @@ const DAYS = [
     { name: '神仙半岛 Promthep Cape（不去）', lat: 7.7640, lng: 98.3058, type: 'spot', time: '—', desc: '经典日落圣地；D4 贝拉号出海航线会经过南部海域，海上即可看，不单独前往' }
 ]},
 
-  { id: 8, label: 'B1', date: '10-01 周四 · 老城日', title: '大皇宫 · 卧佛寺', color: '#e0ac00', locations: [
-    { name: '沙吞码头 Sathorn Pier', lat: 13.7224, lng: 100.5125, type: 'transport', time: '08:30',
-      desc: 'BTS On Nut → Saphan Taksin 站 2 号出口直连码头，坐昭披耶河快船北上',
-      detail: '橙旗船 16 铢/站·全程约 30 铢，或蓝旗旅游船 30 铢\n到 Tha Chang 码头(N9) 下船步行 5 分钟就是大皇宫', pay: { cash: 1 } },
-    { name: '大皇宫 · 玉佛寺', lat: 13.7500, lng: 100.4913, type: 'spot', time: '09:30',
-      desc: '曼谷必看顶流：玉佛寺 + 大皇宫建筑群，门票 500 铢',
-      detail: '08:30-15:30 开放，中午最晒，赶早\n着装：过膝+遮肩（门口可租纱笼 200 铢押金）\n现场排队买票或官网提前买', budget: '500 铢', pay: { cash: 1, card: 1 }, xhsKeyword: '曼谷 大皇宫 攻略' },
-    { name: '卧佛寺 Wat Pho', lat: 13.7433, lng: 100.4912, type: 'spot', time: '12:00',
-      desc: '46 米鎏金卧佛，泰式按摩的发源地，门票 300 铢含一瓶水',
-      detail: '大皇宫步行 10 分钟即到\n寺内按摩亭可体验老牌泰式按摩（约 480 铢/30min，常排队）', budget: '300 铢', pay: { cash: 1 }, dianping: false },
-    { name: '郑王庙 Wat Arun（今日已打卡 ✔）', lat: 13.7437, lng: 100.4889, type: 'spot', time: '日落',
-      desc: '对岸 3 铢渡船直达的瓷片宝塔，日落时分最美——今天傍晚坐船过去看了日落，已完成 ✔', pay: { cash: 1 } },
-    { name: '考山路 Khao San（备选）', lat: 13.7597, lng: 100.4975, type: 'drink', time: '—',
-      desc: '全球背包客大本营，夜晚最热闹，从老城打车 10 分钟' },
-    { name: '⭐ 晚餐 · Thipsamai 传奇炒河粉', lat: 13.7526, lng: 100.5030, type: 'food', time: '17:30',
-      desc: '1966 年开业的曼谷炒河粉天花板：蛋包虾炒河粉是招牌，现炒现卖，从卧佛寺步行/突突车 10 分钟',
-      detail: '周二休息，今天周四无碍\n17:00 开饭就排队，17:30 前到最稳；营业到半夜\n只收现金，门口鲜榨橙汁也是招牌\n和考山路夜游可接：吃完散步或突突车过去', budget: '人均 80-150 铢', pay: { cash: 1 }, dianping: false, xhsKeyword: '曼谷 Thipsamai 炒河粉' }
+  { id: 8, label: 'B1', date: '10-01 周四 · 已执行 ✅', title: 'ICONSIAM · 郑王庙日落', color: '#30b0c7', locations: [
+    { name: 'ICONSIAM 暹罗天地（夯）✅', lat: 13.7224, lng: 100.5097, type: 'spot', time: '10:00-17:30',
+      desc: '泰国顶流商场：G 层 Sook Siam 室内水上市场 + 河景，今日实花约 2400 铢（购物 2000 + 吃饭 400）',
+      detail: 'Sook Siam 一站吃遍全泰 77 府小吃\n7 层河畔餐厅看昭披耶河日落\n河畔广场傍晚常有免费演出', pay: { cash: 1, card: 1, alipay: 1 }, xhsKeyword: 'ICONSIAM 攻略' },
+    { name: '郑王庙 Wat Arun 日落（顶级）✅', lat: 13.7437, lng: 100.4889, type: 'spot', time: '18:00-19:30',
+      desc: 'ICONSIAM 码头乘船过河，瓷片宝塔日落+夜景灯光，今日已完成打卡',
+      detail: '渡船仅几铢，日落前 30 分钟到最稳\n对岸 Tha Tien 一带河景咖啡也可看\n天黑后塔身亮灯，别急着走', pay: { cash: 1 }, xhsKeyword: '郑王庙 日落' }
   ]},
 
-  { id: 9, label: 'B2·改', date: '10-02 周五 · 空邦峦 + 朱拉美食日', title: '空邦峦水上市场 · 段哥 · 朱拉夜市', color: '#ff375f', locations: [
-    { name: '☕ Factory Coffee（Sukhumvit 33 总店）', lat: 13.7372, lng: 100.5612, type: 'drink', time: '09:00-11:00',
-      desc: '曼谷咖啡天花板，招牌 Russell 咖啡拿铁。Phetchaburi 河谷店已闭店，来总店打卡（出发前先确认营业）',
-      detail: 'On Nut 坐 BTS 至 Phrom Phong/Asok 一带再步行或打车\n早上人少不用排队，招牌 Russell 系列必点\n甜点（云朵吐司）也好评', pay: { cash: 1, card: 1 }, xhsKeyword: '曼谷 Factory Coffee 攻略' },
-    { name: '空邦峦水上市场 Khlong Bang Luang', lat: 13.7419, lng: 100.4606, type: 'food', time: '11:30-16:00',
-      desc: '⭐ 新主线：本地人运河水上市场，艺术家老宅 Baan Silapin + 运河游船，游客少氛围松弛',
-      detail: 'MRT 蓝线 Bang Phai 站（BL33）1 号出口 → Soi Petchkasem 20 步行或摩的 15 铢\n营业约 09:00-18:00，每天开\n运河船 40-60 铢/人，百年木屋艺术村值得逛\n档口多为现金，备好小额', budget: '人均 200-400 铢', pay: { cash: 1 }, xhsKeyword: '空邦峦水上市场 攻略' },
-    { name: '段哥餐厅 Here Duan（朱拉美食街）', lat: 13.7400, lng: 100.5290, type: 'food', time: '17:30-19:00',
-      desc: '⭐ 晚餐：朱拉美食一条街 Banthat Thong 路人气泰式食堂，蒜味虾欧姆蛋饭是招牌',
-      detail: 'Banthat Thong 路（朱拉隆功大学西侧），BTS National Stadium 站步行约 15 分钟或打车\n饭点排队，17:30 前到最稳；招牌：蒜味虾/蟹肉欧姆蛋饭、打抛猪\n吃完步行去朱拉隆功夜市消食', budget: '人均 150-300 铢', pay: { cash: 1, card: 1 }, xhsKeyword: '曼谷 段哥餐厅 Here Duan' },
-    { name: '⭐ 夜游 · 朱拉隆功夜市', lat: 13.7385, lng: 100.5295, type: 'food', time: '19:00-21:30',
-      desc: '顶级打卡：朱拉美食街 + 周边巷弄夜市，烤肉串、火山排骨、糯米芒果饭一条龙，本地大学生聚集地',
-      detail: '段哥出门就是美食街主路，往南逛到 Suan Luang R9 / Sam Yan 方向\n火山排骨（Ruamjit / Jeb O Chula）排队早去\n返程：BTS National Stadium 或 MRT Sam Yan 回 On Nut', pay: { cash: 1 }, xhsKeyword: '曼谷 朱拉隆功夜市 美食' }
+  { id: 9, label: 'B2', date: '10-02 周五 · 水上市场+购物', title: '空邦峦 · 四面佛 · 朱拉夜市', color: '#ff375f', locations: [
+    { name: '空邦峦水上市场 Khlong Bang Luang（夯）', lat: 13.7472, lng: 100.4619, type: 'spot', time: '08:30-13:00',
+      desc: '百年艺术家之家河渠市场：吊脚木屋+运河小贩，比丹嫩沙多更本地；9:00-16:00',
+      detail: 'On Nut 出发 Grab 约 40-50 分钟（300-450 铢）\n可包长尾船约 300 铢河上巡游，近观水门寺大佛\n艺术家之家木偶戏：周末 14:00 场（今天周五可能没有，随缘）\n市场内船面、椰子冰淇淋、炭烤香蕉管够', budget: '人均 200-500 铢', pay: { cash: 1 }, dianping: false, xhsKeyword: '空邦峦 水上市场' },
+    { name: '四面佛 Erawan Shrine', lat: 13.7459, lng: 100.5420, type: 'spot', time: '15:00',
+      desc: '回城后 BTS Chit Lom 站直达；20 铢香烛，顺时针拜四面许愿', budget: '20 铢起', pay: { cash: 1 }, xhsKeyword: '曼谷 四面佛 拜佛攻略' },
+    { name: 'CentralWorld → Big C 扫货+退税', lat: 13.7472, lng: 100.5411, type: 'spot', time: '16:00-18:30',
+      desc: 'CentralWorld（Naraya 包）→ Big C Rajadamri 2 楼超市手信一站式；满 2000 铢办退税单 P.P.10',
+      detail: '同一天同店满 2000 铢才能开单，出示护照\n退税单+小票钉一起保存，机场托运前盖章\nFactory Coffee 多家分店，逛街间隙可打卡', pay: { cash: 1, card: 1, alipay: 1 }, xhsKeyword: 'Big C 曼谷 手信清单' },
+    { name: '⭐ 晚餐 · 朱拉隆功夜市美食街（顶级）', lat: 13.7385, lng: 100.5267, type: 'food', time: '18:30-21:30',
+      desc: '朱拉大学旁百年美食街：铁板烧、蟹肉炒饭、甜品摊，17:00 后陆续出摊',
+      detail: 'BTS Siam / National Stadium 步行约 10-15 分钟\n回 On Nut：BTS 直达，末班约 23:00 别贪晚\n人均 200-400 铢，部分摊位只收现金', budget: '人均 200-400 铢', pay: { cash: 1, card: 0.5 }, dianping: false, xhsKeyword: '朱拉隆功 美食街' }
   ]},
 
-  { id: 10, label: 'B3·改', date: '10-03 周六 · 拜佛 + 手信日', title: '四面佛 · CentralWorld · Big C', color: '#30b0c7', locations: [
-    { name: '四面佛 Erawan Shrine', lat: 13.7459, lng: 100.5420, type: 'spot', time: '09:00',
-      desc: '「有求必应」四面佛，越早拜越灵，BTS Chit Lom 站出口即到',
-      detail: '基础祭拜 20 铢：12 支香 + 1 蜡烛 + 花串\n顺时针拜完四个面，最后许愿\n许愿成真要回来还愿（跳舞/花串）\n隔壁就是 CentralWorld', budget: '20 铢起', pay: { cash: 1 }, xhsKeyword: '曼谷 四面佛 拜佛攻略' },
-    { name: 'CentralWorld', lat: 13.7468, lng: 100.5398, type: 'spot', time: '11:00',
-      desc: '东南亚最大商场之一，四面佛步行 3 分钟，热门 Naraya 曼谷包专柜在此',
-      detail: 'Naraya 款式全价格优，手信首选\nBig C 就在对面', pay: { cash: 1, card: 1, alipay: 1 } },
-    { name: 'Big C Rajadamri 手信扫货', lat: 13.7472, lng: 100.5411, type: 'spot', time: '15:00',
-      desc: '手信一站式：小老板海苔、Bento 鱿鱼片、芒果干、蜂蜜、卧佛牌青草膏',
-      detail: '2 楼超市自选最便宜，超过 2000 铢记得在客服台办退税单（P.P.10）\n大件行李箱可寄存服务台\n明晚就回程，手信今天一次买齐', pay: { cash: 1, card: 1, alipay: 1 }, xhsKeyword: 'Big C 曼谷 手信清单' },
-    { name: 'Inter Restaurant 1981（暹罗广场）', lat: 13.7455, lng: 100.5345, type: 'food', time: '18:00',
-      desc: '⭐ 晚餐：1981 年开业的暹罗老牌泰餐厅，菜量扎实价平，逛完商场顺路',
-      detail: '近 BTS Siam 站暹罗广场一侧，大虾炒河粉、冬阴功、椰子冰淇淋好评\n饭点可能排队，逛 Big C 前可先取号', budget: '人均 200-400 铢', pay: { cash: 1, card: 1 }, xhsKeyword: '曼谷 Inter Restaurant 1981' }
+  { id: 10, label: 'B3', date: '10-03 周六 · 打卡补漏日', title: '水门寺 · 美食打卡 · 唐人街（有空就去）', color: '#00c7be', locations: [
+    { name: '水门寺大佛 Wat Paknam（有空就去）', lat: 13.7206, lng: 100.4726, type: 'spot', time: '09:00-11:00',
+      desc: '69 米翡翠大佛头+白色法轮宝塔，免费；也可从空邦峦包长尾船水上视角抵达',
+      detail: '从酒店 Grab 约 25 分钟 250-350 铢\n着装过膝遮肩\n主殿玻璃尖塔内有翡翠佛，值得排队', pay: { cash: 1 }, xhsKeyword: '曼谷 水门寺大佛 攻略' },
+    { name: '美食打卡补漏 · Factory Coffee / 段哥餐厅', lat: 13.7460, lng: 100.5350, type: 'food', time: '12:00-17:00',
+      desc: 'Factory Coffee（多家分店）· 段哥餐厅（Google Maps 直接搜店名定位后插入动线）· 逛 Terminal 21/Siam 补漏购物',
+      detail: 'Factory Coffee：精品咖啡名店，暹罗商圈/商场分店可碰运气\n段哥餐厅：先在 Google Maps 搜「段哥」确认位置再排\n中午退房前把 Big C 漏项补齐', pay: { cash: 1, card: 1 } },
+    { name: '有空就去 · 唐人街耀华力路 + Inter 1981', lat: 13.7246, lng: 100.5098, type: 'food', time: '19:00-21:30',
+      desc: '金店灯牌+街头美食（周六夜最热闹）；Inter Restaurant 1981 老字号泰餐就在耀华力路一带',
+      detail: '从 Rachawongse 码头步行 5 分钟入街\n街头摊只收现金，备 20/50/100 铢小额\n回程 BTS 末班约 23:00\n大皇宫+卧佛寺同在「有空就去」清单：某天起得早可 8:30 冲大皇宫', budget: '人均 200-500 铢', pay: { cash: 1 }, dianping: false, xhsKeyword: '曼谷 耀华力路 美食' }
   ]},
 
   { id: 11, label: 'B4', date: '10-04 周日 · 返程', title: '返程 · 回上海', color: '#8e8e93', locations: [
@@ -1128,6 +1114,14 @@ const DAYS = [
   ]},
 
   { id: 12, label: '曼谷图鉴', date: '曼谷备选 · 随时插队', title: '曼谷景点图鉴', color: '#64d2ff', locations: [
+    { name: '大皇宫·玉佛寺（有空就去）', lat: 13.7500, lng: 100.4913, type: 'spot', time: '—', desc: '门票 500 铢，08:30-15:30，着装最严（遮肩过膝）；已降级为有空再冲', pay: { cash: 1, card: 1 } },
+    { name: '卧佛寺（有空就去）', lat: 13.7433, lng: 100.4912, type: 'spot', time: '—', desc: '46 米鎏金卧佛，300 铢，泰式按摩发源地', pay: { cash: 1 } },
+    { name: 'Thipsamai 传奇炒河粉', lat: 13.7526, lng: 100.5030, type: 'food', time: '17:00-深夜', desc: '1966 年蛋包虾炒河粉天花板，周二休息，只收现金，17:30 前到排队短', pay: { cash: 1 } },
+    { name: '考山路 Khao San（备选）', lat: 13.7597, lng: 100.4975, type: 'drink', time: '—', desc: '全球背包客大本营，夜晚最热闹' },
+    { name: '空邦峦水上市场', lat: 13.7472, lng: 100.4619, type: 'food', time: '09:00-16:00', desc: '河西岸百年运河市场+艺术家之家木偶戏（周末 14:00），已排入 B2 周五', pay: { cash: 1 } },
+    { name: '朱拉隆功夜市美食街', lat: 13.7385, lng: 100.5267, type: 'food', time: '17:00-23:00', desc: '朱拉大学旁百年美食街，已排入 B2 周五晚餐', pay: { cash: 1 } },
+    { name: 'Inter Restaurant 1981', lat: 13.7246, lng: 100.5098, type: 'food', time: '—', desc: '耀华力路 1981 年老字号泰餐厅，唐人街打卡店', pay: { cash: 1, card: 1 } },
+    { name: 'Factory Coffee', lat: 13.7322, lng: 100.5189, type: 'drink', time: '—', desc: '曼谷精品咖啡名店，多家分店（Samyan/ICONSIAM/暹罗商圈一带）', pay: { cash: 1, card: 1 } },
     { name: '郑王庙 Wat Arun（已打卡 ✔）', lat: 13.7437, lng: 100.4889, type: 'spot', time: '—', desc: '10/1 傍晚坐船去看过日落了 ✔', pay: { cash: 1 } },
     { name: '水门寺大佛 Wat Paknam（备选）', lat: 13.7206, lng: 100.4726, type: 'spot', time: '—', desc: '69 米翡翠大佛头，免费；有空可去（酒店 Grab 约 25 分钟）', pay: { cash: 1 } },
     { name: 'ICONSIAM（已打卡 ✔ 10/1）', lat: 13.7224, lng: 100.5097, type: 'spot', time: '—', desc: '10/1 白天已逛 ✔ G 层 Sook Siam 室内水上市场 + 河景', pay: { cash: 1, card: 1, alipay: 1 } },
